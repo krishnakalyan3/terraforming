@@ -1,4 +1,7 @@
 
+AWS/02_remote/.terraform*
+AWS/02_remote/terraform*
+
 AWS/01_intro/.terraform*
 AWS/01_intro/terraform*
 .idea/*
