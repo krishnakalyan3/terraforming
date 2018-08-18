@@ -1,4 +1,7 @@
 
+AWS/03_wordpress/.terraform*
+AWS/03_wordpress/terraform*
+
 AWS/02_remote/.terraform*
 AWS/02_remote/terraform*
 
