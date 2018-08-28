@@ -9,7 +9,7 @@ provider "aws" {
 
 resource "aws_ebs_volume" "volume" {
     availability_zone = "${aws_instance.ec2.availability_zone}"
-    size = 400
+    size = 800
     tags {
         Name = "Terraform"
     }
@@ -25,6 +25,7 @@ resource "aws_instance" "ec2" {
   ami           = "ami-c6ac1cbc"
   instance_type = "t2.micro"
   key_name = "terraform"
+  instance_type = "p2.xlarge"
 
   tags {
     Name = "Terraform"

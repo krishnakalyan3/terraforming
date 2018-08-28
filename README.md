@@ -7,6 +7,7 @@ SNo.| Topic
 3 | Route 53 and Wordpress
 4 | Security Groups, VPC
 5 | Spot P3 Instance
+6 | Container Stuff
 
 
 ### Learning Resources
